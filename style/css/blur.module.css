@@ -1,0 +1,16 @@
+.blur {
+  cursor: pointer;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-tap-highlight-color: transparent;
+  z-index: 2;
+  justify-content: center;
+  display: none;
+  -webkit-box-pack: center;
+  align-items: center;
+  transition: 0.5s;
+}

@@ -1,0 +1,36 @@
+@import 'app';
+@import 'utils';
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  position: relative;
+  overflow-x: hidden;
+  background-color: var(--clr-body);
+  color: var(--clr-primary);
+}
+
+:root {
+  --clr-body: #212429;
+  --clr-side-nav: #070809;
+  --clr-side-nav-link: #a0a1a3;
+  --clr-content: #1f2026;
+  --clr-primary: #d5d7df;
+  --clr-primary2: #343638;
+  --clr-primary3: #7c7c7d;
+  --clr-content-border: rgb(64, 68, 79);
+  --clr-cta: #2c55a6;
+}

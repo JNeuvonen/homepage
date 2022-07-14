@@ -1,0 +1,25 @@
+@mixin lg-icon-button($clr) {
+  padding: 8px;
+  background-color: $clr;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: darken($clr, 5%);
+  }
+}
+
+@mixin small-icon-button($clr) {
+  padding: 2px;
+  background-color: $clr;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: darken($clr, 5%);
+  }
+}

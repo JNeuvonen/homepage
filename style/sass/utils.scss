@@ -1,0 +1,93 @@
+$clr-body: #212429;
+$clr-side-nav: #070809;
+$clr-side-nav-link: #a0a1a3;
+$clr-content: #a0a1a3;
+$clr-primary: #d5d7df;
+$clr-primary2: #343638;
+$clr-primary3: #7c7c7d;
+$bp850: 850px;
+
+.flex-box {
+  display: flex;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.fontWeight300 {
+  font-weight: 300;
+}
+.content-center {
+  justify-content: center;
+}
+
+.fontWeight400 {
+  font-weight: 400;
+}
+.width100 {
+  width: 100%;
+}
+
+.fontWeight500 {
+  font-weight: 500;
+}
+.fontWeight600 {
+  font-weight: 600;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.link-cancel-default {
+  text-decoration: none;
+  color: inherit;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-direction-column {
+  flex-direction: column;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.cursor-default {
+  cursor: default !important;
+}
+
+.top-right-corner {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.centered {
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centered-horizontal {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.default-shadow {
+  box-shadow: 0px 0px 10px -4px black;
+}
+
+.column-gap {
+  column-gap: 10px;
+}

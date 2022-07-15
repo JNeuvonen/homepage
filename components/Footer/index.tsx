@@ -5,6 +5,7 @@ import youtubeJSON from '../../assets/json/icons8-youtube-logo.json'
 import gmailJSON from '../../assets/json/icons8-gmail-logo.json'
 import AnimationPlayOnHover from '../AnimationPlayOnHover'
 import DarkModeButton from '../DarkModeButton'
+import { GithubIcon } from '../../utils/icons'
 const Footer = ({
   darkMode,
   setDarkMode,
@@ -57,6 +58,17 @@ const Footer = ({
         >
           <AnimationPlayOnHover animJSON={youtubeJSON} width={35} height={35} />
           <span>YouTube</span>
+        </a>
+
+        <a
+          className="flex-box align-items-center link-cancel-default"
+          style={{ columnGap: '10px' }}
+          href="https://github.com/JNeuvonen"
+          target={'_blank'}
+          rel="noreferrer"
+        >
+          <GithubIcon width={35} height={35} />
+          <span>Github</span>
         </a>
       </div>
     </footer>

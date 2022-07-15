@@ -46,10 +46,11 @@ const Contact = (props: ComponentPropTypes) => {
         )
       } else {
         emailjs.send(
-          'service_3h88b0t',
-          'template_epq8dhv',
+          //@ts-ignore
+          props.emailService,
+          props.emailTemplate,
           params,
-          'fBsTQJhO4KbfOJuU0'
+          props.emailSecret
         )
         localStorage.setItem('formSubmitTs', String(Date.now()))
         setEmail('')

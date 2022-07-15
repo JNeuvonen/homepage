@@ -13,6 +13,9 @@ export interface LayoutProps {
 export interface ComponentPropTypes {
   darkMode: string
   updateInfoMessage: Function
+  emailService: string
+  emailTemplate: string
+  emailSecret: string
 }
 
 export interface NavLinkProps {

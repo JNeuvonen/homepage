@@ -8,6 +8,10 @@ const Contact = (props: ComponentPropTypes) => {
   const [message, setMessage] = useState('')
   const [inputsValid, setInputsValid] = useState(false)
 
+  const { NEXT_PUBLIC_EMAIL_SERVICE } = process.env
+  const { NEXT_PUBLIC_EMAIL_TEMPLATE } = process.env
+  const { NEXT_PUBLIC_EMAIL_SECRET } = process.env
+
   useEffect(() => {
     const elem = document.getElementById('form-cta') as HTMLElement
     if (message && title) {
@@ -46,10 +50,13 @@ const Contact = (props: ComponentPropTypes) => {
         )
       } else {
         emailjs.send(
-          props.emailService,
-          props.emailTemplate,
+          //@ts-ignore
+          NEXT_PUBLIC_EMAIL_SERVICE,
+          //@ts-ignore
+          NEXT_PUBLIC_EMAIL_TEMPLATE,
           params,
-          props.emailSecret
+          //@ts-ignore
+          NEXT_PUBLIC_EMAIL_SECRET
         )
         localStorage.setItem('formSubmitTs', String(Date.now()))
         setEmail('')
@@ -102,13 +109,3 @@ const Contact = (props: ComponentPropTypes) => {
 }
 
 export default Contact
-
-export async function getServerSideProps() {
-  return {
-    props: {
-      emailService: process.env.EMAIL_SERVICE,
-      emailSecret: process.env.EMAIL_SECRET,
-      emailTemplate: process.env.EMAIL_TEMPLATE,
-    },
-  }
-}

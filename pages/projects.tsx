@@ -5,10 +5,37 @@ import Image from 'next/image'
 const Projects = () => {
   const projects = [
     {
+      name: 'This homepage',
+      githubUrl: 'https://github.com/JNeuvonen/homepage',
+      description: (
+        <div
+          className="flex-box flex-direction-column space-between"
+          style={{ height: '100%' }}
+        >
+          <div>
+            <h3 style={{ marginBottom: 5 }}>Description</h3>
+            <p>
+              I need a homepage and a platform for a blog. Currently in
+              progress.
+            </p>
+          </div>
+
+          <div>
+            <h3 style={{ marginTop: 10 }}>Technologies used</h3>
+            <span>React, Next, TypeScript, SCSS</span>
+          </div>
+        </div>
+      ),
+      picture: coinflipduelPng,
+    },
+    {
       name: 'Coinflip.app',
       githubUrl: 'https://github.com/JNeuvonen/coinflipduel',
       description: (
-        <>
+        <div
+          className='className="flex-box flex-direction-column space-between'
+          style={{ height: '100%' }}
+        >
           <h3 style={{ marginBottom: 5 }}>Description</h3>
           <p>
             Have you ever wanted to flip a coin for fake money in a very
@@ -18,14 +45,14 @@ const Projects = () => {
           <br />
           <p>
             This was a proof of concept type of a project for me. I just wanted
-            to see myself how easy it is to develope applications using current
+            to see myself how easy it is to develop applications using current
             state web3 technologies.
           </p>
           <h3 style={{ marginTop: 10 }}>Technologies used</h3>
           <span>
             React, Next, Redux, SCSS, Web3 (npm package), Solidity, Mocha
           </span>
-        </>
+        </div>
       ),
       picture: coinflipduelPng,
     },
@@ -34,7 +61,10 @@ const Projects = () => {
       name: 'Track ARK Flow',
       githubUrl: 'https://github.com/JNeuvonen/ark-flows',
       description: (
-        <>
+        <div
+          className='className="flex-box flex-direction-column space-between'
+          style={{ height: '100%' }}
+        >
           <h3 style={{ marginBottom: 5 }}>Description</h3>
           <p>
             ARK ETF is the biggest publicly traded actively managed ETF fund.
@@ -49,29 +79,35 @@ const Projects = () => {
           <p></p>
           <h3 style={{ marginTop: 10 }}>Technologies used</h3>
           <span>React, Redux, SCSS, Node, Express, MongoDB, AWS</span>
-        </>
+        </div>
       ),
       picture: coinflipduelPng,
     },
 
     {
-      name: 'Impermanent Loss Calc',
+      name: 'Impermant Loss Calc',
       githubUrl: 'https://github.com/JNeuvonen/impermanent-loss-calculator',
       description: (
-        <>
-          <h3 style={{ marginBottom: 5 }}>Description</h3>
-          <p>
-            Personal project that I used to practice responsive design, design
-            overall (how to code CSS, so things do not look utterly terrible),
-            keeping code more readable and modular, and also just to level-up my
-            front-end development skills. I have come long way since.
-          </p>
+        <div
+          className="flex-box flex-direction-column space-between"
+          style={{ height: '100%' }}
+        >
+          <div>
+            <h3 style={{ marginBottom: 5 }}>Description</h3>
+            <p>
+              Personal project that I used to practice responsive design, design
+              overall (how to code CSS, so things do not look utterly terrible),
+              keeping code more readable and modular, and also just to level-up
+              my front-end development skills. I have come long way since.
+            </p>
+          </div>
 
-          <br />
-          <p></p>
-          <h3 style={{ marginTop: 10 }}>Technologies used</h3>
-          <span>React, MUI, SCSS, Recharts, Redux</span>
-        </>
+          <div>
+            <p></p>
+            <h3 style={{ marginTop: 10 }}>Technologies used</h3>
+            <span>React, MUI, SCSS, Recharts, Redux</span>
+          </div>
+        </div>
       ),
       picture: coinflipduelPng,
     },
@@ -80,21 +116,28 @@ const Projects = () => {
       name: 'Asunnon Arvo',
       githubUrl: 'https://github.com/JNeuvonen/asunnon-arvo',
       description: (
-        <>
-          <h3 style={{ marginBottom: 5 }}>Description</h3>
-          <p>
-            This is a short personal toy project that I started with my friend
-            for fun. My friend is a realtor (does not do programming) and he
-            asked me to program this site. It is a completely static website
-            that sends out email to my friends email account if a user fills out
-            the form. It was a great project for practicing UX/UI.
-          </p>
+        <div
+          className="flex-box flex-direction-column space-between"
+          style={{ height: '100%' }}
+        >
+          <div>
+            <h3 style={{ marginBottom: 5 }}>Description</h3>
+            <p>
+              This is a short personal toy project that I started with my friend
+              for fun. My friend is a realtor (does not do programming) and he
+              asked me to program this site. It is a completely static website
+              that sends out email to my friends email account if a user fills
+              out the form. It was a great project for practicing UX/UI.
+            </p>
 
-          <br />
-          <p></p>
-          <h3 style={{ marginTop: 10 }}>Technologies used</h3>
-          <span>React, SCCS</span>
-        </>
+            <br />
+            <p></p>
+          </div>
+          <div>
+            <h3 style={{ marginTop: 10 }}>Technologies used</h3>
+            <span>React, SCCS</span>
+          </div>
+        </div>
       ),
       picture: coinflipduelPng,
     },

@@ -8,7 +8,7 @@ interface ProjectTypes {
 const ProjectCard = ({ project }: { project: ProjectTypes }) => {
   return (
     <div className="project-card">
-      <div>{project.description}</div>
+      {project.description}
       <div className="project-card__name">
         <a
           className="flex-box align-items-center content-center link-cancel-default"

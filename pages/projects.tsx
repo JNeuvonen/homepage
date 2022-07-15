@@ -39,7 +39,7 @@ const Projects = () => {
           <p>
             ARK ETF is the biggest publicly traded actively managed ETF fund.
             ETF funds have to disclose their positions before every trading day.
-            This presents a fun opportunity for visualizing ARK's position
+            This presents a fun opportunity for visualizing ARKs position
             changes from day to day and their longer term strategy. It was one
             my first front-end projects when I was much weaker front-end
             developer.
@@ -62,8 +62,8 @@ const Projects = () => {
           <h3 style={{ marginBottom: 5 }}>Description</h3>
           <p>
             Personal project that I used to practice responsive design, design
-            overall (how to code CSS, so things don't look utterly terrible),
-            keeping code more readable & modular, and also just to level-up my
+            overall (how to code CSS, so things do not look utterly terrible),
+            keeping code more readable and modular, and also just to level-up my
             front-end development skills. I have come long way since.
           </p>
 
@@ -84,10 +84,10 @@ const Projects = () => {
           <h3 style={{ marginBottom: 5 }}>Description</h3>
           <p>
             This is a short personal toy project that I started with my friend
-            for fun. My friend is a realtor (doesn't do programming) and he
-            asked me to program this site. It's a completely static website that
-            sends out email to my friend's email account if a user fills out the
-            form. It was a great project for practicing UX/UI.
+            for fun. My friend is a realtor (does not do programming) and he
+            asked me to program this site. It is a completely static website
+            that sends out email to my friends email account if a user fills out
+            the form. It was a great project for practicing UX/UI.
           </p>
 
           <br />

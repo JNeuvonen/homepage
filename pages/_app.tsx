@@ -78,7 +78,7 @@ function MyApp({ Component, pageProps, ...props }: AppProps) {
   )
 }
 
-MyApp.getStaticProps = async () => {
+MyApp.getInitialProps = async () => {
   return {
     emailService: process.env.EMAIL_SERVICE,
     emailTemplate: process.env.EMAIL_TEMPLATE,

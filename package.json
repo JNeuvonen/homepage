@@ -10,6 +10,7 @@
     "watch:sass": "node-sass style/sass/main.scss style/css/globals.css -w"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.6.2",
     "@emotion/react": "^11.9.3",
     "@emotion/styled": "^11.9.3",
     "@mui/material": "^5.9.0",

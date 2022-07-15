@@ -215,6 +215,73 @@
     margin-top: 40px;
     margin-bottom: 20px; }
 
+.contact-form {
+  position: relative;
+  padding-bottom: 30px; }
+  .contact-form p {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 3px; }
+  .contact-form input {
+    max-width: 400px;
+    width: 100%;
+    border-radius: 5px;
+    height: 35px;
+    border: 2px solid var(--clr-cta);
+    padding-left: 10px;
+    background-color: var(--clr-content);
+    color: var(--clr-primary); }
+  .contact-form input:focus {
+    outline: none;
+    box-shadow: 0px 0px 10px -2px var(--clr-cta); }
+  .contact-form__message {
+    border: 2px solid var(--clr-cta);
+    width: 100% !important;
+    max-width: 100% !important;
+    border-radius: 5px;
+    height: 300px !important;
+    padding: 10px;
+    background-color: var(--clr-content);
+    color: var(--clr-primary); }
+    .contact-form__message:focus {
+      outline: none; }
+  .contact-form button {
+    margin-top: 10px;
+    right: 0;
+    position: absolute;
+    padding: 10px;
+    background-color: #d6154c;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    font-size: 24px;
+    width: 140px;
+    cursor: pointer; }
+    .contact-form button:hover {
+      background-color: #bf1344; }
+
+.info-message {
+  padding: 15px;
+  width: 300px;
+  border-radius: 10px;
+  height: max-content;
+  border: 2px solid var(--clr-green);
+  position: fixed;
+  background-color: var(--clr-green-2);
+  color: black;
+  z-index: 300;
+  right: -300px;
+  top: 40px;
+  font-weight: 700;
+  transition: right 1s cubic-bezier(0.075, 0.82, 0.165, 1); }
+  .info-message__message-cancel {
+    position: absolute;
+    top: 3px;
+    right: 3px; }
+  .info-message p {
+    font-size: 15px; }
+
 .flex-box {
   display: flex; }
 
@@ -312,7 +379,11 @@ body {
   --clr-primary3: #7c7c7d;
   --clr-content-border: rgb(64, 68, 79);
   --clr-cta: #2c55a6;
-  --clr-hr: 'black'; }
+  --clr-hr: black;
+  --clr-green: #20d43e;
+  --clr-green-2: #d3f5d8;
+  --clr-red: #bd1108;
+  --clr-red-2: #e89d99; }
 
 .light-theme {
   --clr-body: #f2f3f4;

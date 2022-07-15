@@ -180,3 +180,74 @@
     margin-bottom: 20px;
   }
 }
+
+.contact-form {
+  position: relative;
+  padding-bottom: 30px;
+  p {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 3px;
+  }
+  input {
+    max-width: 400px;
+    width: 100%;
+    border-radius: 5px;
+    height: 35px;
+    border: 2px solid var(--clr-cta);
+    padding-left: 10px;
+    background-color: var(--clr-content);
+    color: var(--clr-primary);
+  }
+
+  input:focus {
+    outline: none;
+    box-shadow: 0px 0px 10px -2px var(--clr-cta);
+  }
+
+  &__message {
+    border: 2px solid var(--clr-cta);
+    width: 100% !important;
+    max-width: 100% !important;
+    border-radius: 5px;
+    height: 300px !important;
+    padding: 10px;
+    background-color: var(--clr-content);
+    color: var(--clr-primary);
+    &:focus {
+      outline: none;
+    }
+  }
+
+  button {
+    margin-top: 10px;
+    right: 0;
+    position: absolute;
+    @include large-cta-button(#d6154c, white);
+  }
+}
+
+.info-message {
+  padding: 15px;
+  width: 300px;
+  border-radius: 10px;
+  height: max-content;
+  border: 2px solid var(--clr-green);
+  position: fixed;
+  background-color: var(--clr-green-2);
+  color: black;
+  z-index: 300;
+  right: -300px;
+  top: 40px;
+  font-weight: 700;
+  transition: right 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+  &__message-cancel {
+    @include top-right-corner(3px);
+  }
+
+  p {
+    font-size: 15px;
+  }
+}

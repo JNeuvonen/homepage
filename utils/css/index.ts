@@ -1,3 +1,10 @@
+import {
+  COLOR_GREEN,
+  COLOR_GREEN_2,
+  COLOR_RED,
+  COLOR_RED_2,
+} from '../constants'
+
 export const enableBlur = () => {
   const blur: HTMLElement | null = document.getElementById('blur')
   blur!.style!.display = 'flex'
@@ -119,4 +126,42 @@ export const rotate180DegClockWise = () => {
 export const rotate180DegCounterClockWise = () => {
   const elem = document.getElementById('chevron-left') as HTMLElement
   elem.style.transform = 'rotate(0deg)'
+}
+
+export const changeInfoMessageColor = (type: string) => {
+  const infoMessage = document.getElementsByClassName(
+    'info-message'
+  )[0] as HTMLElement
+
+  if (infoMessage) {
+    infoMessage.style.transition = '0s'
+
+    if (type === 'success') {
+      infoMessage.style.border = `2px solid ${COLOR_GREEN}`
+      infoMessage.style.backgroundColor = COLOR_GREEN_2
+      infoMessage.style.color = 'black'
+    } else {
+      infoMessage.style.border = `2px solid ${COLOR_RED}`
+      infoMessage.style.backgroundColor = COLOR_RED_2
+      infoMessage.style.color = 'white'
+    }
+
+    infoMessage.style.transition = '1s cubic-bezier(0.075, 0.82, 0.165, 1)'
+  }
+}
+
+export const enableInfoMessage = () => {
+  const infoMessage = document.getElementsByClassName(
+    'info-message'
+  )[0] as HTMLElement
+  infoMessage.style.transition = '1s cubic-bezier(0.075, 0.82, 0.165, 1)'
+  infoMessage.style.right = '20px'
+}
+
+export const disableInfoMessage = () => {
+  const infoMessage = document.getElementsByClassName(
+    'info-message'
+  )[0] as HTMLElement
+  infoMessage.style.transition = '0s'
+  infoMessage.style.right = '-300px'
 }

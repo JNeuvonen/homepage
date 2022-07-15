@@ -87,7 +87,7 @@ const Projects = () => {
             for fun. My friend is a realtor (doesn't do programming) and he
             asked me to program this site. It's a completely static website that
             sends out email to my friend's email account if a user fills out the
-            form. It was great project for practicing UX/UI.
+            form. It was a great project for practicing UX/UI.
           </p>
 
           <br />

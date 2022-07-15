@@ -46,7 +46,6 @@ const Contact = (props: ComponentPropTypes) => {
         )
       } else {
         emailjs.send(
-          //@ts-ignore
           props.emailService,
           props.emailTemplate,
           params,
@@ -101,4 +100,15 @@ const Contact = (props: ComponentPropTypes) => {
     </form>
   )
 }
+
 export default Contact
+
+export async function getServerSideProps() {
+  return {
+    props: {
+      emailService: process.env.EMAIL_SERVICE,
+      emailSecret: process.env.EMAIL_SECRET,
+      emailTemplate: process.env.EMAIL_TEMPLATE,
+    },
+  }
+}

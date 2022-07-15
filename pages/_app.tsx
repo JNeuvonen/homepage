@@ -5,8 +5,6 @@ import '../style/css/globals.css'
 import { disableInfoMessage, enableInfoMessage } from '../utils/css'
 
 function MyApp({ Component, pageProps, ...props }: AppProps) {
-  const { emailService, emailTemplate, emailSecret }: any = props
-
   const [darkMode, setDarkMode] = useState(true)
   const [infoMessage, setInfoMessage] = useState<null | string>(null)
   const [infoMessageTimeout, setInfoMessageTimeout] = useState<null | number>(
@@ -66,9 +64,6 @@ function MyApp({ Component, pageProps, ...props }: AppProps) {
         updateInfoMessage={updateInfoMessage}
       >
         <Component
-          emailService={emailService}
-          emailTemplate={emailTemplate}
-          emailSecret={emailSecret}
           {...pageProps}
           darkMode={darkMode}
           updateInfoMessage={updateInfoMessage}
@@ -76,14 +71,6 @@ function MyApp({ Component, pageProps, ...props }: AppProps) {
       </Layout>
     </>
   )
-}
-
-MyApp.getInitialProps = async () => {
-  return {
-    emailService: process.env.EMAIL_SERVICE,
-    emailTemplate: process.env.EMAIL_TEMPLATE,
-    emailSecret: process.env.EMAIL_SECRET,
-  }
 }
 
 export default MyApp

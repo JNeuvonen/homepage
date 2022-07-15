@@ -1,7 +1,15 @@
 import React, { useState } from 'react'
 import { COLOR_PRIMARY } from '../../utils/constants'
 import { StarIcon } from '../../utils/icons'
-const Skill = ({ skill, count }: { skill: string; count: number }) => {
+const Skill = ({
+  skill,
+  count,
+  darkMode,
+}: {
+  skill: string
+  count: number
+  darkMode: boolean
+}) => {
   const [hover, setHover] = useState(false)
 
   return (
@@ -19,7 +27,7 @@ const Skill = ({ skill, count }: { skill: string; count: number }) => {
           return (
             <StarIcon
               key={i}
-              fill={hover ? 'white' : COLOR_PRIMARY}
+              fill={hover ? 'white' : COLOR_PRIMARY(darkMode)}
               width={25}
               height={25}
             />

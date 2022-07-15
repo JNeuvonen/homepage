@@ -9,13 +9,14 @@ import Card from '../components/Card'
 import Skill from '../components/Skill'
 import { ChevronDown } from '../utils/icons'
 import SkillSection from '../components/SkillSection'
+import { LayoutProps } from '../utils/interfaces/returns'
 
 interface SkillType {
   skill: string
   stars: number
 }
 
-const Home: NextPage = () => {
+const Home = (props: LayoutProps) => {
   const px1000 = useMediaQuery('(max-width:700px')
   const [mounted, setMounted] = useState(false)
   const programmingLanguages = [
@@ -26,18 +27,33 @@ const Home: NextPage = () => {
     { skill: 'SQL', stars: 4 },
     { skill: 'Haskell', stars: 3 },
     { skill: 'Rust', stars: 3 },
-    { skill: 'Solidity', stars: 2 },
+    { skill: 'Solidity', stars: 3 },
   ]
 
   const programmingSkills = [
     { skill: 'React', stars: 5 },
-    { skill: 'Next', stars: 5 },
+    { skill: 'Next.js', stars: 5 },
     { skill: 'HTML/CSS', stars: 5 },
     { skill: 'Algorithms', stars: 5 },
+    { skill: 'Git', stars: 4 },
+    { skill: 'SASS/SCSS', stars: 4 },
     { skill: 'UI/UX', stars: 4 },
-    { skill: 'Node', stars: 4 },
+    { skill: 'Node.js', stars: 4 },
     { skill: 'MongoDB', stars: 4 },
-    { skill: 'Cloud/AWS', stars: 3 },
+    { skill: 'SEO', stars: 3 },
+    { skill: 'AWS', stars: 3 },
+  ]
+
+  const languages = [
+    {
+      skill: 'English',
+      stars: 5,
+    },
+
+    {
+      skill: 'Finnish',
+      stars: 5,
+    },
   ]
 
   useEffect(() => {
@@ -126,15 +142,22 @@ const Home: NextPage = () => {
       )}
 
       <hr />
-      <h1>Abilities</h1>
       <div className="home__abilities">
         <SkillSection
           title="Programming Lanuages"
           array={programmingLanguages}
+          darkMode={props.darkMode}
         />
         <SkillSection
-          title="Frameworks Tools Skills"
+          title="Frameworks & Tools & Skills"
           array={programmingSkills}
+          darkMode={props.darkMode}
+        />
+
+        <SkillSection
+          title="Languages"
+          array={languages}
+          darkMode={props.darkMode}
         />
       </div>
     </div>

@@ -1,5 +1,7 @@
 export interface LayoutProps {
   children: JSX.Element
+  darkMode: boolean
+  setDarkMode: Function
 }
 
 export interface NavLinkProps {

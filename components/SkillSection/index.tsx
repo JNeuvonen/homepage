@@ -11,15 +11,24 @@ interface SkillType {
 const SkillSection = ({
   title,
   array,
+  darkMode,
 }: {
   title: string
   array: SkillType[]
+  darkMode: boolean
 }) => {
   const [reverse, setReverse] = useState(false)
 
   const getSkillSection = (array: SkillType[]) => {
     return array.map((item, i) => {
-      return <Skill skill={item.skill} count={item.stars} key={i} />
+      return (
+        <Skill
+          skill={item.skill}
+          count={item.stars}
+          key={i}
+          darkMode={darkMode}
+        />
+      )
     })
   }
 

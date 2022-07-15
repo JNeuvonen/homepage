@@ -33,4 +33,14 @@ body {
   --clr-primary3: #7c7c7d;
   --clr-content-border: rgb(64, 68, 79);
   --clr-cta: #2c55a6;
+  --clr-hr: 'black';
+}
+
+.light-theme {
+  --clr-body: #f2f3f4;
+  --clr-content: #ffffff;
+  --clr-content-border: #bfbfbf;
+  --clr-cta: #4486e8;
+  --clr-primary: #2b2b2b;
+  --clr-hr: #bfbfbf;
 }

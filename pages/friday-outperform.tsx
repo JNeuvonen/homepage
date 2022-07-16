@@ -287,10 +287,11 @@ const FridayOutperform = () => {
       <p>
         Not only does the strategy straight out beat the benchmark, it allows
         the 6/7 of the time (when we don&apos;t have a position) to generate
-        more profit by deploying capital to other strategies. Without
-        calculating a p-value for the hypothesis, we can say this is
-        statistically significant.
+        more profit by deploying capital to other strategies. It is safe to say
+        this is statistically significant.
       </p>
+      <br />
+      <h3>Why?</h3>
     </div>
   )
 }

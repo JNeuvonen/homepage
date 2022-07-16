@@ -40,7 +40,7 @@ const FridayOutperform = () => {
           hypothesis? The idea for this{' '}
           <Tooltip
             title={
-              <p>
+              <p style={{ fontSize: 20 }}>
                 Backtest refers to a hypothesis testing that is done using
                 historical data.
               </p>

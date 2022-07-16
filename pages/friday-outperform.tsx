@@ -48,7 +48,7 @@ const FridayOutperform = () => {
           >
             <span style={{ textDecoration: 'underline' }}>backtest</span>
           </Tooltip>{' '}
-          came from the anecdotical experience that cryptocurrencies indeed
+          came from the anecdotical experience that cryptocurrencies seem to
           perform quite well on Fridays. Cryptocurrency exhange Binance also
           happens to offer historical price data on a massive scale for free, so
           this hunch was easy to put on a test with a rather straightforward
@@ -269,18 +269,27 @@ const FridayOutperform = () => {
       <h3>Interpreting the results</h3>
       <br />
       <p>
-        Before the backtest I had a small hunch that Friday for no apparent
-        reason probably performs slightly better than other days. Turns out the
-        results are as overwhelmingly significant for friday being the best day
-        as they could possibly be.
+        Before the backtest, I had a small hunch that Friday, for no apparent
+        reason, probably performed slightly better than other days. It turns out
+        Friday is overwhelmingly the best day to buy ETH. It&apos;s the best day
+        to buy by many orders of magnitude, even after trading fees.
+      </p>
+      <br />
+
+      <p>
+        I am not speculating here, I am just interpreting the data. The
+        &quot;buy friday, sell saturday&quot; strategy{' '}
+        <span style={{ fontWeight: 700 }}>beats</span> buy and hold after fees
+        while carrying significantly less risk (having position 1/7 of time as
+        opposed to all the time) and max drawdown being a lot less.
       </p>
       <br />
       <p>
-        Friday is the best day to buy cryptos and its the best by many orders of
-        magnitude. I am not speculating here, I am just interpreting the data.
-        The &quot;buy friday, sell saturday&quot; strategy beats buy and hold
-        after fees while carrying significantly less risk (having position 1/7
-        of time as opposed to all the time) and max drawdown being much less.
+        Not only does the strategy straight out beat the benchmark, it allows
+        the 6/7 of the time (when we don&apos;t have a position) to generate
+        more profit by deploying capital to other strategies. Without
+        calculating a p-value for the hypothesis, we can say this is
+        statistically significant.
       </p>
     </div>
   )

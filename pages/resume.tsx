@@ -25,7 +25,7 @@ const Resume = () => {
       <div className="resume__paragraph" style={{ padding: 20 }}>
         <ul style={{ marginTop: -15 }}>
           <li>
-            I became condent that I could provide value in any part of the web
+            I became condident that I could provide value in any part of the web
             development lifecycle.
           </li>
           <li style={{ marginTop: 15 }}>

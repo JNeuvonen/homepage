@@ -1,13 +1,9 @@
 import { useMediaQuery } from '@mui/material'
-import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 
+import { useEffect, useState } from 'react'
 import picture from '../assets/images/BE049F05-7677-43ED-835E-127B6FAC5CC4.jpg'
-import React, { useEffect, useState } from 'react'
-import Card from '../components/Card'
-import Skill from '../components/Skill'
-import { ChevronDown } from '../utils/icons'
 import SkillSection from '../components/SkillSection'
 import { LayoutProps } from '../utils/interfaces/returns'
 
@@ -20,7 +16,7 @@ const Home = (props: LayoutProps) => {
   const px1000 = useMediaQuery('(max-width:700px')
   const [mounted, setMounted] = useState(false)
   const programmingLanguages = [
-    { skill: 'Javascript', stars: 5 },
+    { skill: 'JavaScript', stars: 5 },
     { skill: 'TypeScript', stars: 5 },
     { skill: 'Python', stars: 4 },
     { skill: 'Java', stars: 4 },

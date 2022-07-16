@@ -1,7 +1,5 @@
-import React, { useEffect, useState } from 'react'
-import ProjectCard from '../components/ProjectCard'
 import coinflipduelPng from '../assets/images/coinflipduel.png'
-import Image from 'next/image'
+import ProjectCard from '../components/ProjectCard'
 const Projects = () => {
   const projects = [
     {

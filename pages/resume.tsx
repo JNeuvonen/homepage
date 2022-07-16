@@ -37,6 +37,41 @@ const Resume = () => {
           </li>
         </ul>
       </div>
+      <div
+        className="flex-box space-between flex-wrap"
+        style={{ marginTop: 15 }}
+      >
+        <div>
+          <h3>Professional Poker Player</h3>
+        </div>
+        <div>
+          <h3>Jun 2015 - Jun 2022</h3>
+        </div>
+      </div>
+      <div className="resume__paragraph">
+        <p>
+          Something that started as a hobby and ended up as my profession. I
+          have always enjoyed games, thrill, and competition. Poker has major
+          elements of all three of those.
+        </p>
+
+        <br />
+        <p>
+          For a long time, playing poker was an intense passion for me. Based on
+          my results, my skill level peaked during the years 2019 and 2020, when
+          I was among the top 0.1% of all online poker professionals.
+        </p>
+      </div>
+      <h3>How was it beneficial for me?</h3>
+      <div className="resume__paragraph" style={{ padding: 20 }}>
+        <ul style={{ marginTop: -15 }}>
+          <li>
+            I got financial freedom and realized it takes a lot of effort to get
+            good at anything. I also improved in analytical thinking, stress
+            tolerance, and emotional control.
+          </li>
+        </ul>
+      </div>
     </div>
   )
 }

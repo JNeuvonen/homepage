@@ -330,3 +330,25 @@ export const NotificationIcon = ({
     </svg>
   )
 }
+
+export const ReadIcon = ({
+  fill,
+  width,
+  height,
+}: {
+  fill?: string
+  width: number
+  height: number
+}): JSX.Element => {
+  return (
+    <svg
+      fill={fill}
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 50 50"
+      width={width}
+      height={height}
+    >
+      <path d="M 44 48 L 12 48 C 8.691406 48 6 45.496094 6 42.417969 L 6 8 C 6 4.691406 8.691406 2 12 2 L 44 2 L 44 39 L 12 39 C 9.757813 39 8 40.5 8 42.417969 C 8 44.359375 9.832031 46 12 46 L 44 46 Z" />
+    </svg>
+  )
+}

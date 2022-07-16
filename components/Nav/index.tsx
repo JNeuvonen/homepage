@@ -22,6 +22,7 @@ import {
   MailIcon,
   MenuIcon,
   NotificationIcon,
+  ReadIcon,
   ResumeIcon,
   SourceCodeIcon,
   SubscribeIcon,
@@ -43,6 +44,12 @@ const Nav = () => {
       text: 'Home',
       icon: <HomeIcon fill={NAV_LINK_COLOR} width={18} height={18} />,
       route: '/',
+    },
+
+    {
+      text: 'Blog',
+      icon: <ReadIcon fill={NAV_LINK_COLOR} width={18} height={18} />,
+      route: '/blog',
     },
     {
       text: 'Contact',

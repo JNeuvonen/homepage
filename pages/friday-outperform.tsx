@@ -292,8 +292,68 @@ const FridayOutperform = () => {
         brave now when I say this is statistically significant.
       </p>
       <br />
+
+      <div>
+        How could a strategy that uses time as a sole indicator for both entry
+        and exit beat buy and hold on a 5 year sample size while paying a lot of
+        fees? Simply stating this undermines the feat; we must also consider the
+        upward bias of ETH&apos;s price.
+      </div>
       <br />
-      <h3>Why?</h3>
+      <div>
+        <p>
+          Common sense would reason that the difficulty of beating buy and hold
+          strategy with an active trading strategy would increase if these two
+          conditions are true:
+        </p>
+        <ol style={{ padding: 24 }}>
+          <li>Asset price is appreciating over time</li>
+          <li>
+            Active trading strategy&apos;s time spent being long is consistently
+            decreasing compared to buy and hold
+          </li>
+        </ol>
+        <p>
+          Now we have 100% long exposure 1/7 of time, which is obviously a lot
+          less than buy and holds 100% long exposure all the time. And
+          ETH&apos;s price has appreciated by a factor of 3. Yet the buy friday,
+          sell saturday strategy outperforms buy and hold even after trading
+          fees.
+        </p>
+        <br />
+        <p>
+          Have I said it enough now? Friday is overwhelmingly the best time to
+          buy cryptocurrency.
+        </p>
+      </div>
+      <br />
+      <h3>What explains the anomaly?</h3>
+      <br />
+      <p>
+        I don&apos;t know. There are too many variables that affect financial
+        asset prices, and financial markets are chaotic. There are many
+        attractive, plausible, and easy-to-come up with explanations. What is
+        extremely surprising is that the seasonality is so strong that it beats
+        buy and hold after trading fees.
+      </p>
+      <br />
+      <p>
+        Cryptomarkets are not unique for having seasonality.{' '}
+        <a
+          href="https://www.investopedia.com/terms/s/santaclauseffect.asp"
+          target={'_blank'}
+          rel="noreferrer"
+        >
+          Santa Claus Rally
+        </a>{' '}
+        is anomaly that occurs on the stock market during the christmas season.
+      </p>
+      <br />
+      <p>
+        I did this backtest purely for entertainment value, and I have not made
+        bets using the results of this backtest, and I recommend the same to
+        you.
+      </p>
     </div>
   )
 }

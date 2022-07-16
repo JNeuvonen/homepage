@@ -21,6 +21,7 @@ import {
   HomeIcon,
   MailIcon,
   MenuIcon,
+  NotificationIcon,
   ResumeIcon,
   SourceCodeIcon,
   SubscribeIcon,
@@ -60,7 +61,7 @@ const Nav = () => {
     },
     {
       text: 'Subscribe',
-      icon: <SubscribeIcon fill={NAV_LINK_COLOR} width={18} height={18} />,
+      icon: <NotificationIcon fill={NAV_LINK_COLOR} width={18} height={18} />,
       route: '/subscribe',
     },
   ]

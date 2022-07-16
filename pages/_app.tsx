@@ -24,6 +24,10 @@ function MyApp({ Component, pageProps, ...props }: AppProps) {
   }
 
   useEffect(() => {
+    updateInfoMessage('You should hire me!', 15000, 'success')
+  }, [])
+
+  useEffect(() => {
     const darkModeHelper = localStorage.getItem('mode')
     if (darkModeHelper === 'dark') {
       setDarkMode(true)

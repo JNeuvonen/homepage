@@ -79,12 +79,13 @@ const FridayOutperform = () => {
           strategies often use &quot;buy and hold&quot; as a standard benchmark.
           And that makes sense. If an active trading strategy does not
           outperform &quot;doing nothing&quot;, then simply do nothing. Beating
-          buy and hold on a statistically significant sample size is very hard
-          because of trading fees. Every week, our &quot;buy on Friday, sell on
-          Saturday &quot; strategy loses 0.2% in trading fees (0.1% on both buy
-          and sell). The probability of overcoming this severe handicap by just
-          picking a random strategy is very low. This is true, at least if the
-          asset price has an upward bias.
+          buy and hold with an active trading strategy on a statistically
+          significant with sample size is very hard because of trading fees.
+          Every week, our &quot;buy on Friday, sell on Saturday &quot; strategy
+          loses 0.2% in trading fees (0.1% on both buy and sell). The
+          probability of overcoming this severe handicap by just picking a
+          random strategy is very low. This is true, at least if the asset price
+          has an upward bias.
         </p>
         <br />
         <h3>Enter trade criteria (buy ETH)</h3>

@@ -30,9 +30,10 @@ const Resume = () => {
           </li>
           <li style={{ marginTop: 15 }}>
             During this time, I also built an interest in the full development
-            cycle of web applications. From the smallest details in an app's
-            design, to state management, to the app's features, to responsive
-            design, to backend or cloud, it all genuinely interests me.
+            cycle of web applications. From the smallest details in an
+            app&apos;s design, to state management, to the app&apos;s features,
+            to responsive design, to backend or cloud, it all genuinely
+            interests me.
           </li>
         </ul>
       </div>

@@ -294,7 +294,7 @@
     position: absolute;
     top: 0;
     right: 0;
-    border-radius: 0px;
+    border-radius: 1px;
     border-top-right-radius: 10px;
     padding: 7px; }
   .project-card__name {
@@ -327,6 +327,18 @@
     @media only screen and (max-width: 900px) {
       .projects__grid {
         grid-template-columns: 1fr; } }
+
+.resume {
+  max-width: 600px;
+  margin: 0 auto; }
+  .resume h2 {
+    font-size: 28px; }
+  .resume h3 {
+    font-size: 18px; }
+  .resume__paragraph {
+    margin-top: 18px;
+    margin-bottom: 18px;
+    font-size: 18px; }
 
 .flex-box {
   display: flex; }

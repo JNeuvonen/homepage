@@ -265,7 +265,7 @@
     position: absolute;
     top: 0;
     right: 0;
-    border-radius: 0px;
+    border-radius: 1px;
     border-top-right-radius: 10px;
     padding: 7px;
   }
@@ -306,5 +306,24 @@
     @media only screen and (max-width: 900px) {
       grid-template-columns: 1fr;
     }
+  }
+}
+
+.resume {
+  max-width: 600px;
+  margin: 0 auto;
+
+  h2 {
+    font-size: 28px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  &__paragraph {
+    margin-top: 18px;
+    margin-bottom: 18px;
+    font-size: 18px;
   }
 }

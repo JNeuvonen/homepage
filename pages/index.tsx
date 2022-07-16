@@ -90,10 +90,12 @@ const Home = (props: LayoutProps) => {
                 <p style={{ marginTop: 10 }}>
                   Despite not having previous formal work experience, I believe
                   I am currently a strong enough developer for a junior position
-                  hire on both backend and frontend side. I am applying to work
-                  to improve faster as a software developer and to have more
-                  interesting projects to work on. I will give my best on any
-                  task I get assigned.
+                  hire on both backend and frontend side.
+                </p>
+                <p style={{ marginTop: 10 }}>
+                  I am applying to work to improve faster as a software
+                  developer and to have more interesting projects to work on. I
+                  will always give my best on any task I get assigned.
                 </p>
               </div>
             </div>

@@ -89,7 +89,10 @@ const Home = (props: LayoutProps) => {
                 </p>
                 <p style={{ marginTop: 10 }}>
                   Despite not having previous formal work experience, I believe
-                  I am easy to get along and work with.
+                  I am currently a strong enough developer for a junior position
+                  hire. I am applying to work to improve faster as a software
+                  developer and to have more interesting projects to work on. I
+                  will give my best on any task I get assigned.
                 </p>
               </div>
             </div>
@@ -131,7 +134,7 @@ const Home = (props: LayoutProps) => {
               <p style={{ fontSize: 18, fontWeight: 800, marginTop: 15 }}>
                 Experience
               </p>
-              <p style={{ fontSize: 18 }}>4 years</p>
+              <p style={{ fontSize: 18 }}>3 years</p>
             </div>
           </div>
         </div>

@@ -11,7 +11,7 @@ const Resume = () => {
           <h3>Student</h3>
         </div>
         <div>
-          <h3>Jun 2020 - Present</h3>
+          <h3>Sept 2020 - Present</h3>
         </div>
       </div>
       <div className="resume__paragraph">
@@ -45,7 +45,7 @@ const Resume = () => {
           <h3>Professional Poker Player</h3>
         </div>
         <div>
-          <h3>Jun 2015 - Jun 2022</h3>
+          <h3>Jun 2015 - Jun 2020</h3>
         </div>
       </div>
       <div className="resume__paragraph">

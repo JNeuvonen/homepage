@@ -47,7 +47,11 @@ const SkillSection = ({
           onClick={handleOnClick}
           style={{ transform: reverse ? 'rotate(180deg)' : 'inherit' }}
         >
-          <ChevronDown width={24} height={24} fill="white" />
+          <ChevronDown
+            width={24}
+            height={24}
+            fill={darkMode ? 'white' : 'black'}
+          />
         </div>
       </div>
       <div>{getSkillSection(array)}</div>

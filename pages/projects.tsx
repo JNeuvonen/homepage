@@ -5,6 +5,7 @@ const Projects = () => {
     {
       name: 'This homepage',
       githubUrl: 'https://github.com/JNeuvonen/homepage',
+      demo: 'https://www.jarnoneuvonen.com/',
       description: (
         <div
           className="flex-box flex-direction-column space-between"
@@ -29,6 +30,7 @@ const Projects = () => {
     {
       name: 'Coinflip.app',
       githubUrl: 'https://github.com/JNeuvonen/coinflipduel',
+      demo: 'https://coinflipduel.vercel.app/',
       description: (
         <div
           className='className="flex-box flex-direction-column space-between'
@@ -58,6 +60,7 @@ const Projects = () => {
     {
       name: 'Track ARK Flow',
       githubUrl: 'https://github.com/JNeuvonen/ark-flows',
+      demo: 'http://www.trackarkflow.com/',
       description: (
         <div
           className='className="flex-box flex-direction-column space-between'
@@ -83,8 +86,9 @@ const Projects = () => {
     },
 
     {
-      name: 'Impermant Loss Calc',
+      name: 'Impermanent Loss Calc',
       githubUrl: 'https://github.com/JNeuvonen/impermanent-loss-calculator',
+      demo: 'https://www.defivisualizer.com/',
       description: (
         <div
           className="flex-box flex-direction-column space-between"
@@ -113,6 +117,7 @@ const Projects = () => {
     {
       name: 'Asunnon Arvo',
       githubUrl: 'https://github.com/JNeuvonen/asunnon-arvo',
+      demo: 'https://www.asunnonarvo.com/',
       description: (
         <div
           className="flex-box flex-direction-column space-between"

@@ -24,14 +24,7 @@ const Skill = ({
       </h3>
       <div>
         {[...Array(count)].map((e, i) => {
-          return (
-            <StarIcon
-              key={i}
-              fill={hover ? 'white' : COLOR_PRIMARY(darkMode)}
-              width={25}
-              height={25}
-            />
-          )
+          return <StarIcon key={i} width={25} height={25} />
         })}
       </div>
     </div>

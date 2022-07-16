@@ -287,12 +287,19 @@
   border-radius: 10px;
   position: relative;
   padding: 15px;
-  padding-bottom: 50px;
+  padding-bottom: 70px;
   font-size: 15px;
   min-height: 100%; }
+  .project-card__demo {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 0px;
+    border-top-right-radius: 10px;
+    padding: 7px; }
   .project-card__name {
     background-color: var(--clr-hr);
-    height: 40px;
+    height: 50px;
     bottom: 0;
     left: 0;
     position: absolute;
@@ -303,6 +310,8 @@
       font-size: 23px;
       color: var(--clr-primary);
       margin-bottom: 5px; }
+    .project-card__name a {
+      margin-top: 9px; }
 
 .projects {
   height: 100%; }

@@ -11,11 +11,6 @@ const Contact = (props: ComponentPropTypes) => {
   const { NEXT_PUBLIC_EMAIL_SERVICE } = process.env
   const { NEXT_PUBLIC_EMAIL_TEMPLATE } = process.env
   const { NEXT_PUBLIC_EMAIL_SECRET } = process.env
-  console.log(
-    NEXT_PUBLIC_EMAIL_SECRET,
-    NEXT_PUBLIC_EMAIL_SERVICE,
-    NEXT_PUBLIC_EMAIL_TEMPLATE
-  )
 
   useEffect(() => {
     const elem = document.getElementById('form-cta') as HTMLElement

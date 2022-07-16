@@ -260,6 +260,10 @@
     cursor: pointer; }
     .contact-form button:hover {
       background-color: #bf1344; }
+  .contact-form button:disabled,
+  .contact-form button[disabled] {
+    filter: opacity(0.3);
+    cursor: not-allowed; }
 
 .info-message {
   padding: 15px;
@@ -339,6 +343,9 @@
     margin-top: 18px;
     margin-bottom: 18px;
     font-size: 18px; }
+
+.subscribe h1 {
+  text-align: center; }
 
 .flex-box {
   display: flex; }

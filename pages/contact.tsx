@@ -80,7 +80,7 @@ const Contact = (props: ComponentPropTypes) => {
         ></input>
       </div>
       <div>
-        <p>E-mail</p>
+        <p>Email</p>
         <input
           autoComplete="on"
           name="email"

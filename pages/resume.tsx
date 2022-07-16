@@ -19,7 +19,7 @@ const Resume = () => {
         active learner in my free time. The fastest way for me to grow as a
         developer was through personal projects. Some of those personal projects
         are available on my Github page. Especially recently I have become much
-        better software developer.
+        better frontend developer.
       </div>
       <h3>What I learned?</h3>
       <div className="resume__paragraph" style={{ padding: 20 }}>

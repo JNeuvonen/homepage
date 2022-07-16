@@ -226,6 +226,12 @@
     position: absolute;
     @include large-cta-button(#d6154c, white);
   }
+
+  button:disabled,
+  button[disabled] {
+    filter: opacity(0.3);
+    cursor: not-allowed;
+  }
 }
 
 .info-message {
@@ -325,5 +331,11 @@
     margin-top: 18px;
     margin-bottom: 18px;
     font-size: 18px;
+  }
+}
+
+.subscribe {
+  h1 {
+    text-align: center;
   }
 }

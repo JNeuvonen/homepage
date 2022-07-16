@@ -75,16 +75,16 @@ const FridayOutperform = () => {
         <br />
 
         <p>
-          To understand our results, we also need a benchmark. Quantitative
-          trading strategies often use &quot;buy and hold&quot; as a standard
-          benchmark. And that makes sense. If an active trading strategy does
-          not outperform &quot;doing nothing&quot;, then simply do nothing.
-          Beating buy and hold on a statistically significant sample size is
-          very hard because of trading fees. Every week, our &quot;buy on
-          Friday, sell on Saturday &quot; strategy loses 0.2% in trading fees
-          (0.1% on both buy and sell). The probability of overcoming this severe
-          handicap by just picking a random strategy is very low. This is true,
-          at least if the asset price has an upward bias.
+          To understand our results, we also need a benchmark. Active trading
+          strategies often use &quot;buy and hold&quot; as a standard benchmark.
+          And that makes sense. If an active trading strategy does not
+          outperform &quot;doing nothing&quot;, then simply do nothing. Beating
+          buy and hold on a statistically significant sample size is very hard
+          because of trading fees. Every week, our &quot;buy on Friday, sell on
+          Saturday &quot; strategy loses 0.2% in trading fees (0.1% on both buy
+          and sell). The probability of overcoming this severe handicap by just
+          picking a random strategy is very low. This is true, at least if the
+          asset price has an upward bias.
         </p>
         <br />
         <h3>Enter trade criteria (buy ETH)</h3>
@@ -290,6 +290,7 @@ const FridayOutperform = () => {
         more profit by deploying capital to other strategies. I am not being
         brave now when I say this is statistically significant.
       </p>
+      <br />
       <br />
       <h3>Why?</h3>
     </div>

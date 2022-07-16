@@ -344,9 +344,10 @@ const FridayOutperform = () => {
           target={'_blank'}
           rel="noreferrer"
         >
-          Santa Claus Rally
+          Santa claus rally
         </a>{' '}
-        is anomaly that occurs on the stock market during the christmas season.
+        is an anomaly that occurs on the stock market during the christmas
+        season.
       </p>
       <br />
       <p>

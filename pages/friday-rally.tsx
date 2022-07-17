@@ -273,8 +273,8 @@ const FridayOutperform = () => {
         reason, probably performed slightly better than other days. It turns out
         Friday is overwhelmingly the best day to be invested in ETH. It&apos;s
         the best day by many orders of magnitude. Average day (Friday included)
-        of holding ETH has generated on average 0.06% of profit. Holding ETH
-        from Friday to Saturday (for 24 hours) has generated on average 0.69% of
+        of holding ETH has generated on average 0.06% of profit. Holding ETH for
+        24 hours from Friday to Saturday has generated on average 0.69% of
         profit after trading fees. These results are staggeringly significant.
       </p>
       <br />

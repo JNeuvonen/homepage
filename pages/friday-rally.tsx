@@ -306,7 +306,7 @@ const FridayOutperform = () => {
       </p>
       <br />
       <p>
-        Cryptomarkets are not unique for having seasonality.{' '}
+        Cryptocurrency markets are not unique for having seasonality.{' '}
         <a
           href="https://www.investopedia.com/terms/s/santaclauseffect.asp"
           target={'_blank'}
@@ -314,8 +314,10 @@ const FridayOutperform = () => {
         >
           Santa claus rally
         </a>{' '}
-        is an anomaly that occurs on the stock market during the christmas
-        season.
+        is an anomaly that has rewarded stock market investors, as you may
+        guess, during the Christmas season. However, because cryptocurrency
+        markets are generally a lot more unmature, Christmas may arrive 52 times
+        more frequently on the cryptomarkets.
       </p>
       <br />
       <p>
@@ -325,7 +327,22 @@ const FridayOutperform = () => {
       </p>
 
       <br />
-      <h3></h3>
+      <h3>
+        You don&apos;t believe everything that is written on the internet?
+      </h3>
+      <br />
+      <p>
+        You can do the same backtest (or some other) for yourself,
+        <a
+          href="https://www.binance.com/en/landing/data"
+          target={'_blank'}
+          rel="noreferrer"
+        >
+          {' '}
+          here&apos;s{' '}
+        </a>
+        Binance&apos;s massive library of market data.
+      </p>
     </div>
   )
 }

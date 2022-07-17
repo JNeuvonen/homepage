@@ -279,30 +279,30 @@ const FridayOutperform = () => {
       <p>
         I am not speculating here, I am just interpreting the data. Buy and hold
         strategy has CAGR of 23.6% while &quot;buy friday, sell saturday&quot;
-        has CAGR of 28.4% The &quot;buy friday, sell saturday&quot; strategy{' '}
-        <span style={{ fontWeight: 700 }}>beats</span> buy and hold after fees
-        while carrying significantly less risk (having position 1/7 of time as
-        opposed to all the time) and max drawdown being a lot less.
+        strategy has CAGR of 28.4% The &quot;buy friday, sell saturday&quot;
+        strategy <span style={{ fontWeight: 700 }}>beats</span> buy and hold
+        after fees while carrying significantly less risk (having position 1/7
+        of time as opposed to all the time) and max drawdown being a lot less.
       </p>
       <br />
       <p>
         Not only does the strategy straight out beat the benchmark, it allows
         the 6/7 of the time (when we don&apos;t have a position) to generate
-        more profit by deploying capital to other strategies. I am not being
-        brave now when I say this is statistically significant.
+        more profit by deploying capital to other strategies. It is fair to call
+        these results interesting.
       </p>
       <br />
 
       <h3>Anomaly</h3>
       <br />
       <p>
-        How could a strategy that uses time as a sole indicator for both entry
+        How could a strategy that uses time as a sole criteria for both entry
         and exit beat buy and hold on a 5 year sample size while paying a lot of
-        fees? I don&apos;t know. There are too many variables that affect
-        financial asset prices, and financial markets are chaotic. There are
-        many attractive, plausible, and easy-to-come up with explanations. What
-        is extremely surprising is that the seasonality is so strong that it
-        beats buy and hold after trading fees.
+        fees? I don&apos;t know. There are a lot variables that affect financial
+        asset prices, and financial markets are chaotic. There are many
+        attractive, plausible, and easy-to-come up with explanations. What is
+        extremely surprising is that the seasonality is so strong that it beats
+        buy and hold after trading fees.
       </p>
       <br />
       <p>

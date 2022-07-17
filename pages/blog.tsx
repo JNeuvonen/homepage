@@ -1,7 +1,7 @@
 import { Tooltip } from '@mui/material'
 import Image from 'next/image'
 import React, { useEffect, useState } from 'react'
-import ethGraph from '../assets/images/image_2022_07_16T14_34_03_871Z.png'
+import weekend from '../assets/images/weekend.png'
 const Blog = () => {
   const blogs = [
     {
@@ -9,12 +9,14 @@ const Blog = () => {
         'If you plan on buying cryptocurrency, Friday is the best time to do it',
       description: (
         <p>
-          Let&apos;s explore the quite interesting question that is posed in
-          this blog post&apos;s title. I assume quite a narrow demographic will
-          find this blog post interesting, but those who do will probably find
-          it hilarious. Cryptocurrency prices indeed perform best on Fridays.
+          When asked how Friday differs from other days, many individuals
+          respond positively. Turns out cryptocurrency investors in particular,
+          have even more reasons to eagerly anticipate the beginning of leisure
+          time. Let me expand on this odd assertion.
         </p>
       ),
+      route: 'friday-rally',
+      picture: weekend,
     },
   ]
   return (

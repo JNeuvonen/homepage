@@ -27,7 +27,7 @@ const FridayOutperform = () => {
       <div>
         <p>
           When asked how Friday differs from other days, many individuals
-          respond positively. Turns out in particular, cryptocurrency investors
+          respond positively. Turns out cryptocurrency investors in particular,
           have even more reasons to eagerly anticipate the beginning of leisure
           time. Let me expand on this odd assertion.
         </p>

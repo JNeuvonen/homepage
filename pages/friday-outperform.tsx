@@ -34,15 +34,15 @@ const FridayOutperform = () => {
 
         <br />
         <p>
-          How is it possible that Fridays are the best time to be invested in
-          crypto? I don&apos;t know. I will attempt to reason the why part
-          later. How did I come about testing and coming up with this
+          How is it possible that Fridays are the best time to invest in
+          cryptocurrency? I don&apos;t know. I will attempt to reason the why
+          part later. How did I come about testing and coming up with this
           hypothesis? The idea for this{' '}
           <Tooltip
             title={
               <p style={{ fontSize: 20 }}>
                 Backtest refers to a hypothesis testing that is done using
-                historical data.
+                historical data
               </p>
             }
           >
@@ -84,8 +84,7 @@ const FridayOutperform = () => {
           fees. Every week, our &quot;buy on Friday, sell on Saturday&quot;
           strategy loses 0.2% in trading fees (0.1% on both buy and sell). The
           probability of overcoming this severe handicap by just picking a
-          random strategy is very low. This is true, at least if the asset price
-          has an upward bias.
+          random strategy is very low.
         </p>
         <br />
         <h3>Enter trade criteria (buy ETH)</h3>
@@ -293,48 +292,16 @@ const FridayOutperform = () => {
       </p>
       <br />
 
-      <div>
-        How could a strategy that uses time as a sole indicator for both entry
-        and exit beat buy and hold on a 5 year sample size while paying a lot of
-        fees? Simply stating this undermines the feat; we must also consider the
-        upward bias of ETH&apos;s price.
-      </div>
-      <br />
-      <div>
-        <p>
-          Common sense would reason that the difficulty of beating buy and hold
-          strategy with an active trading strategy would increase if these two
-          conditions are true:
-        </p>
-        <ol style={{ padding: 24 }}>
-          <li>Asset price is appreciating over time</li>
-          <li>
-            Active trading strategy&apos;s time spent being long is consistently
-            decreasing compared to buy and hold
-          </li>
-        </ol>
-        <p>
-          Now we have 100% long exposure 1/7 of time, which is obviously a lot
-          less than buy and holds 100% long exposure all the time. And
-          ETH&apos;s price has appreciated by a factor of 3. Yet the buy friday,
-          sell saturday strategy outperforms buy and hold even after trading
-          fees.
-        </p>
-        <br />
-        <p>
-          Have I said it enough now? Friday is overwhelmingly the best time to
-          buy cryptocurrency.
-        </p>
-      </div>
-      <br />
-      <h3>What explains the anomaly?</h3>
+      <h3>Anomaly</h3>
       <br />
       <p>
-        I don&apos;t know. There are too many variables that affect financial
-        asset prices, and financial markets are chaotic. There are many
-        attractive, plausible, and easy-to-come up with explanations. What is
-        extremely surprising is that the seasonality is so strong that it beats
-        buy and hold after trading fees.
+        How could a strategy that uses time as a sole indicator for both entry
+        and exit beat buy and hold on a 5 year sample size while paying a lot of
+        fees? I don&apos;t know. There are too many variables that affect
+        financial asset prices, and financial markets are chaotic. There are
+        many attractive, plausible, and easy-to-come up with explanations. What
+        is extremely surprising is that the seasonality is so strong that it
+        beats buy and hold after trading fees.
       </p>
       <br />
       <p>

@@ -20,24 +20,23 @@ const FridayOutperform = () => {
   return (
     <div style={{ fontSize: 24 }}>
       <h1 style={{ textAlign: 'center' }}>
-        If you plan on buying cryptocurrency, Friday is the best time to do it
+        Friday is even greater than we thought, at least for cryptocurrency
+        investors
       </h1>
       <br />
       <div>
         <p>
-          Let&apos;s explore the quite interesting statement that is posed in
-          this blog post&apos;s title. I assume quite a narrow demographic will
-          find this blog post interesting, but those who do will probably find
-          it hilarious. Cryptocurrency prices indeed perform the best on Fridays
-          in a way that is statistically significant.
+          When asked how Friday differs from other days, many individuals
+          respond positively. In particular, cryptocurrency investors have even
+          more reasons to eagerly anticipate the beginning of leisure time. Let
+          me expand on this odd assertion.
         </p>
 
         <br />
         <p>
-          How is it possible that Fridays are the best time to invest in
-          cryptocurrency? I don&apos;t know. I will attempt to reason the why
-          part later. How did I come about testing and coming up with this
-          hypothesis? The idea for this{' '}
+          Cryptocurrency assets perform the best by a huge margin on Fridays.
+          How did I come about testing and coming up with this hypothesis? The
+          idea for this{' '}
           <Tooltip
             title={
               <p style={{ fontSize: 20 }}>

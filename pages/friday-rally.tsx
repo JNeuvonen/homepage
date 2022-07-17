@@ -320,8 +320,8 @@ const FridayOutperform = () => {
         </a>{' '}
         is an anomaly that has rewarded stock market investors, as you may
         guess, during the Christmas season. However, because cryptocurrency
-        markets are generally a lot more unmature, Christmas may arrive 52 times
-        more frequently on the cryptomarkets.
+        markets are generally a lot more unmature, Christmas may actually arrive
+        52 times more frequently on the cryptomarkets.
       </p>
       <br />
       <p>

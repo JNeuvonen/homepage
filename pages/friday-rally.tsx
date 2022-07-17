@@ -279,7 +279,7 @@ const FridayOutperform = () => {
       <p>
         I am not speculating here, I am just interpreting the data. Buy and hold
         strategy has CAGR of 23.6% while &quot;buy friday, sell saturday&quot;
-        strategy has CAGR of 28.4% The &quot;buy friday, sell saturday&quot;
+        strategy has CAGR of 28.4%. The &quot;buy friday, sell saturday&quot;
         strategy <span style={{ fontWeight: 700 }}>beats</span> buy and hold
         after fees while carrying significantly less risk (having position 1/7
         of time as opposed to all the time) and max drawdown being a lot less.

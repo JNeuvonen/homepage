@@ -19,7 +19,7 @@ const FridayOutperform = () => {
   }
   return (
     <div style={{ fontSize: 24 }}>
-      <h1 style={{ textAlign: 'center' }}>
+      <h1 style={{ textAlign: 'center', fontSize: 28 }}>
         Friday is even greater than we thought, at least for cryptocurrency
         investors
       </h1>

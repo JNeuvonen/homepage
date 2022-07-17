@@ -27,9 +27,9 @@ const FridayOutperform = () => {
       <div>
         <p>
           When asked how Friday differs from other days, many individuals
-          respond positively. In particular, cryptocurrency investors have even
-          more reasons to eagerly anticipate the beginning of leisure time. Let
-          me expand on this odd assertion.
+          respond positively. Turns out in particular, cryptocurrency investors
+          have even more reasons to eagerly anticipate the beginning of leisure
+          time. Let me expand on this odd assertion.
         </p>
 
         <br />
@@ -102,6 +102,8 @@ const FridayOutperform = () => {
           Saturday, sell on candle open price with 100% of available ETH.
         </p>
         <br />
+        <h3>Strategy</h3>
+        <br />
         <p>
           The trading &quot;strategy&quot; is as simple as it possibly gets. I
           am putting strategy in quotes here since it is bold to call this a
@@ -111,9 +113,8 @@ const FridayOutperform = () => {
         <br />
         <p>
           You would think it would be incredibly hard to beat the handicap of
-          0.2% per week on an asset that has a massive upward bias with a
-          strategy that is this simple? Yes, that would be a very rational line
-          of thought.
+          0.2% per week with a strategy that is this simple? Well I certainly
+          wouldn&apos;t blame you for thinking so.
         </p>
         <br />
         <h3>Strategy graph</h3>
@@ -322,6 +323,9 @@ const FridayOutperform = () => {
         bets using the results of this backtest, and I recommend the same to
         you.
       </p>
+
+      <br />
+      <h3></h3>
     </div>
   )
 }

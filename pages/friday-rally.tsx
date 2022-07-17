@@ -331,9 +331,7 @@ const FridayOutperform = () => {
       </p>
 
       <br />
-      <h3>
-        You don&apos;t believe everything that is written on the internet?
-      </h3>
+      <h3>Don&apos;t take my word for it</h3>
       <br />
       <p>
         You can do the same backtest (or some other) for yourself,

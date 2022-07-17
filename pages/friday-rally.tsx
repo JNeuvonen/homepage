@@ -275,7 +275,8 @@ const FridayOutperform = () => {
         the best day by many orders of magnitude. Average day (Friday included)
         of holding ETH has generated on average 0.06% of profit. Holding ETH for
         24 hours from Friday to Saturday has generated on average 0.69% of
-        profit after trading fees. These results are staggeringly significant.
+        profit <span style={{ fontWeight: 'bold' }}>after</span> trading fees.
+        These results are staggeringly significant.
       </p>
       <br />
 
@@ -284,8 +285,8 @@ const FridayOutperform = () => {
         strategy has CAGR of 23.6% while &quot;buy friday, sell saturday&quot;
         strategy has CAGR of 28.4%. The &quot;buy friday, sell saturday&quot;
         strategy <span style={{ fontWeight: 700 }}>beats</span> buy and hold
-        after fees while carrying significantly less risk (having position 1/7
-        of time as opposed to all the time) and max drawdown being a lot less.
+        after fees while carrying significantly less risk and max drawdown being
+        a lot less.
       </p>
       <br />
       <p>

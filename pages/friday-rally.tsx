@@ -271,8 +271,11 @@ const FridayOutperform = () => {
       <p>
         Before the backtest, I had a small hunch that Friday, for no apparent
         reason, probably performed slightly better than other days. It turns out
-        Friday is overwhelmingly the best day to buy ETH. It&apos;s the best day
-        to buy by many orders of magnitude, even after trading fees.
+        Friday is overwhelmingly the best day to be invested in ETH. It&apos;s
+        the best day by many orders of magnitude. Average day (Friday included)
+        of holding ETH has generated on average 0.06% of profit. Holding ETH
+        from Friday to Saturday (for 24 hours) has generated on average 0.69% of
+        profit after trading fees. These results are staggeringly significant.
       </p>
       <br />
 

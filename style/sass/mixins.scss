@@ -44,3 +44,9 @@
   top: $px;
   right: $px;
 }
+
+@mixin hover-darken($clr, $perc) {
+  &:hover {
+    background-color: darken($clr, $perc);
+  }
+}

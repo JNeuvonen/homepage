@@ -1,12 +1,13 @@
 import { Tooltip } from '@mui/material'
 import Image from 'next/image'
+import Link from 'next/link'
 import React, { useEffect, useState } from 'react'
 import weekend from '../assets/images/weekend.png'
 const Blog = () => {
   const blogs = [
     {
       blogTitle:
-        'If you plan on buying cryptocurrency, Friday is the best time to do it',
+        'Friday is even greater than we thought, at least for cryptocurrency investors',
       description: (
         <p>
           When asked how Friday differs from other days, many individuals
@@ -17,14 +18,35 @@ const Blog = () => {
       ),
       route: 'friday-rally',
       picture: weekend,
+      pictureAlt: 'WEEKEND.PNG!',
     },
   ]
   return (
     <div style={{ fontSize: 24 }}>
-      <h1 style={{ textAlign: 'center' }}>Coming soon</h1>
-      {blogs.map((item, i) => {
-        return <div key={i}>{item.blogTitle}</div>
-      })}
+      <div className="blogs" style={{ marginTop: 30 }}>
+        {blogs.map((item, i) => {
+          return (
+            <Link href={item.route} key={i}>
+              <div className="blog-card">
+                <Image src={item.picture} alt={item.pictureAlt}></Image>
+                <a className="link-cancel-default">
+                  <h3
+                    style={{
+                      textAlign: 'center',
+                      fontSize: 30,
+                      marginTop: 15,
+                    }}
+                  >
+                    {item.blogTitle}
+                  </h3>
+                  <br />
+                  <p>{item.description}</p>
+                </a>
+              </div>
+            </Link>
+          )
+        })}
+      </div>
     </div>
   )
 }

@@ -339,3 +339,20 @@
     text-align: center;
   }
 }
+
+.blogs {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.blog-card {
+  cursor: pointer;
+
+  margin: 0 auto;
+  padding: 40px;
+  border-radius: 5px;
+
+  &:hover {
+    box-shadow: 0px 0px 10px -2px var(--clr-cta);
+  }
+}

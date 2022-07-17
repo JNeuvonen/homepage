@@ -347,6 +347,18 @@
 .subscribe h1 {
   text-align: center; }
 
+.blogs {
+  max-width: 800px;
+  margin: 0 auto; }
+
+.blog-card {
+  cursor: pointer;
+  margin: 0 auto;
+  padding: 40px;
+  border-radius: 5px; }
+  .blog-card:hover {
+    box-shadow: 0px 0px 10px -2px var(--clr-cta); }
+
 .flex-box {
   display: flex; }
 
@@ -440,6 +452,7 @@ body {
   --clr-side-nav-link: #a0a1a3;
   --clr-content: #1f2026;
   --clr-content-2: #42434a;
+  --clr-content-2-hover: #494a4d;
   --clr-primary: #d5d7df;
   --clr-primary2: #343638;
   --clr-primary3: #7c7c7d;
@@ -454,6 +467,7 @@ body {
 .light-theme {
   --clr-body: #f2f3f4;
   --clr-content: #ffffff;
+  --clr-content-2-hover: #edebeb;
   --clr-content-border: #bfbfbf;
   --clr-cta: #4486e8;
   --clr-primary: #2b2b2b;
